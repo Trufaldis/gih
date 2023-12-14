@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #191E2E;
+    font-family: 'Roboto', sans-serif;
+}
+.picture {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header {
+    padding: 10px;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+.search {
+    background-color: white;
+    width: 55px;
+    height: 31px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    box-shadow: 0px 0px 10px #6683e9;
+}
+
+.button > button {
+    width: 138px;
+    height: 31px;
+    background-color: #3657CB;
+    border: 0;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0px 0px 10px  #6683e9;
+}
+
+.btn > div {
+    margin: 0 10px;
+}
+
+.categories {
+    margin: 60px 0px; 
+}
+.title {
+    font-size: 40px;
+    color: white;
+}
+
+.line {
+    width: 51px;
+    height: 2px;
+    background: white;
+}
+
+.categries__link {
+    opacity: 0.35;
+    transition: .3s;
+}
+.categries__link:hover {
+    opacity: 1;
+}
+
+.card {
+    width: 339px;
+    height: 620px;
+    margin: 0px 9px;
+}
+
+.image {
+    position: relative;
+    width: 339px;
+    height: 482px;
+}
+.film__rate {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    background-color: #89CB36;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px  white;
+}
+
+.film__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+.film__name {
+    color: white;
+    margin: 5px 0;
+    font-size: 15px;
+}
+.film__categories {
+    color:#F2F60F;
+}
+
+.main {
+    max-width: 1100px;
+    margin-inline: auto;
+    margin-top: 30px;
+}
+
+.film__card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.prev__nav {
+    color:#4F5B7C
+}
+.current__nav {
+    color: white;
+}
+
+.full__card__lang, .full__card__desc {
+    color: white;
+}
+
+.full__card__desc {
+    margin-top: 20px;
+}
+.full__card__rate {
+    position:relative;
+    width: 52px;
+    height: 52px;
+    margin-top: 20px;
+}
+
+.full__card__rate >img {
+position: absolute;
+}
+
+.full__card__rate > span {
+    position: absolute;
+    left:13px;
+    top: 15px;
+    color: white;
+}
+
+.full__card__btn {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.full__card__btn > button {
+    background: transparent;
+    border: 0px;
+    color: white;
+    padding: 20px 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.full__card__btn > button > img {
+    margin-right: 10px;
+}
+.info__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.info__inner > div {
+    width: 400px;
+}
+
+.info__inner > div >div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 5px 0px;
+}
+
+
+.color {
+    color: #F2F60F;
+    border-bottom: 1px solid #F2F60F;
+    font-size: 11px;
+}
+
+.logo__auth {
+    text-align:center;
+    margin: 30px 0;
+}
+
+.title__auth {
+text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 422px;
+    margin: 0 auto;
+}
+
+input {
+    height: 67px;
+    background-color: #1E2538;
+    margin:5px 0;
+    border: 0px;
+    border-radius: 12px;
+    padding-left: 15px;
+}
+
+button {
+    height: 55px;
+    margin: 5px 0;
+}
+.auth {
+    background-color: #F2F60F; 
+    border-radius: 15px;
+    border:0;
+}
+.reg {
+    background-color: #1E2538;
+    border-radius: 15px;
+    color: white;
+    border:0;
+}
+
+.other {
+    text-align: center;
+}
+.other > a {
+    color:#3657CB;
+    margin: 10px 0;
+}
+.social {
+    margin: 40px 0;
+}
+
+
+
+.mainmenubtn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.mainmenubtn:hover {
+    background-color: red;
+    }
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+    position: absolute;
+    z-index: 200;
+}
